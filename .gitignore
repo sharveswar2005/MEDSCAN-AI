@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+frontend/medscan-ui/node_modules
+frontend/medscan-ui/dist
