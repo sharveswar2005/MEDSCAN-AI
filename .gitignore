@@ -1,19 +1,50 @@
 # Python
-venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.venv
 
 # Node
 node_modules/
-dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Environment
-.env
+# ML Model Weights (if you don't want to track them, otherwise comment out)
+# backend/ml/weights/*.pth
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Vite
-frontend/medscan-ui/node_modules
-frontend/medscan-ui/dist
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
